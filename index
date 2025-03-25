@@ -6,16 +6,29 @@
     <title>Lula Shinobi</title>
     <style>
         body {
-            font-family: sans-serif;
-            text-align: center;
-            margin: 20px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
         }
         img {
-            max-width: 80%;
+            max-width: 90%;
             height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         audio {
-            width: 80%;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #333;
         }
     </style>
 </head>
@@ -23,7 +36,7 @@
     <h1>Lula Shinobi</h1>
     <img src="images/lula.jpg" alt="Imagem do Lula Shinobi">
     <audio src="audio/audio.mp3" controls autoplay>
-        Seu navegador não suporta a reprodução de áudio.
+        <p>Seu navegador não suporta a reprodução de áudio.</p>
     </audio>
     <p>Uma homenagem ao Presidente Lula.</p>
 </body>
