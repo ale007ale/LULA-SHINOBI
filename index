@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lula Shinobi</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+        audio {
+            width: 80%;
+        }
+    </style>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Lula Shinobi</h1>
-            <img src="images/L-lula_.jpeg" alt="Imagem do Lula Shinobi" style="max-width: 500px; width: 100%;">
-            <audio src="audio/pol.mp3" controls autoplay>
-                Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p>Uma homenagem ao nosso querido presidente.</p>
-        </section>
-    </main>
+    <h1>Lula Shinobi</h1>
+    <img src="images/lula.jpg" alt="Imagem do Lula Shinobi">
+    <audio src="audio/audio.mp3" controls autoplay>
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+    <p>Uma homenagem ao Presidente Lula.</p>
 </body>
 </html>
